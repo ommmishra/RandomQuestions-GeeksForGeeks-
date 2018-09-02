@@ -1,6 +1,9 @@
+//Given an array of size N-1 and given that there are numbers from 1 to N with one element missing, 
+//the missing number is to be found.
+
 import java.util.Scanner;
 
-public class grtr{
+public class Ques{
 
 
     public static void main (String[]args){
