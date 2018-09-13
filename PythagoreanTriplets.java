@@ -1,3 +1,7 @@
+//Given an array of integers. 
+//write a function that returns true if there is a triplet (a, b, c) that satisfies a2 + b2 = c2.
+
+import java.util.Scanner;
 class alpha{
 
     static void bubbleSort(int arr[])
@@ -28,9 +32,9 @@ class alpha{
         
         bubbleSort(a);
         
-        for(int i=0; i< n -2; i++){
-            for (int j = i+1; j < n-1; j++){
-                for (int l = j+1; l<n; l++){
+        for(int i=0; i< x-2; i++){
+            for (int j = i+1; j < x-1; j++){
+                for (int l = j+1; l<x; l++){
 
                     if(a[i]*a[i] + a[j]*a[j] == a[l]*a[l]){
 
