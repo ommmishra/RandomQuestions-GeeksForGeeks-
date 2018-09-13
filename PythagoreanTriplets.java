@@ -14,9 +14,20 @@ class alpha{
     }
 
     public static void main(String[] args) {
-        int[] a = {1,2,3,4,5};
-        int n = a.length;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the arrya:");
+        int x = sc.nextInt();
+        int[] a = new int[x];
+        
+        System.out.println("Entering the elements in the array....");
+        for(int i = 0; i<x; x++)
+        {
+        System.out.println("Enter element no."+(i+1));
+            a[i]= sc.nextInt();
+        }
+        
         bubbleSort(a);
+        
         for(int i=0; i< n -2; i++){
             for (int j = i+1; j < n-1; j++){
                 for (int l = j+1; l<n; l++){
